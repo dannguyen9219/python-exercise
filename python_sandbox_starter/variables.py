@@ -15,11 +15,19 @@ VARIABLE RULES:
 """
 
 # x = 1           # caste as int by default
-# y = 2.5         # floating number
+# y = 2.5         # floating number - floats have decimals, when converted to int, it will round down to nearest int
 # name = 'John'   # str
 # is_cool = True  # boolean, need capital letter
 
 # Multiple Assignment
 x, y, name, is_cool = (1, 2.5, 'John', True)
 
-print(x, y, name, is_cool)
+# Basic math
+a = x + y
+
+# Casting
+x = str(x)
+y = int(y)
+
+print(x, y, name, is_cool, a)
+print(type(y), y)
