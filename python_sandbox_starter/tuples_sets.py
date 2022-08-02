@@ -39,10 +39,14 @@ print(fruits_set)
 fruits_set.remove('Oranges')
 print(fruits_set)
 
-# Clear set
-fruits_set.clear()
+# Add duplicate
+fruits_set.add('Apples')
 print(fruits_set)
 
-# Delete set
-del fruits_set
+# # Clear set
+# fruits_set.clear()
 # print(fruits_set)
+
+# # Delete set
+# del fruits_set
+# # print(fruits_set)
